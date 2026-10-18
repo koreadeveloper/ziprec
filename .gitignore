@@ -1,0 +1,10 @@
+# binaries & build artifacts
+ziprec
+tests/unit
+*.o
+*.zck
+
+# macOS app bundle (rebuild with gui/build_app.sh)
+gui/ZipRec.app/
+
+.DS_Store

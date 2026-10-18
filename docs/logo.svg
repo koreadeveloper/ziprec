@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0b1c4d"/>
+    </linearGradient>
+    <linearGradient id="lock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- app-icon rounded square -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bg)"/>
+
+  <!-- subtle speed streaks on the right -->
+  <g fill="#ffffff" opacity="0.18">
+    <rect x="356" y="326" width="88" height="10" rx="5"/>
+    <rect x="372" y="352" width="56" height="10" rx="5"/>
+    <rect x="352" y="378" width="72" height="10" rx="5"/>
+  </g>
+
+  <!-- zipper teeth -->
+  <g fill="#9cc0ff">
+    <rect x="215" y="56"  width="34" height="13" rx="6"/>
+    <rect x="263" y="76"  width="34" height="13" rx="6"/>
+    <rect x="215" y="96"  width="34" height="13" rx="6"/>
+    <rect x="263" y="116" width="34" height="13" rx="6"/>
+    <rect x="215" y="136" width="34" height="13" rx="6"/>
+    <rect x="263" y="156" width="34" height="13" rx="6"/>
+    <rect x="215" y="176" width="34" height="13" rx="6"/>
+    <rect x="263" y="196" width="34" height="13" rx="6"/>
+    <rect x="215" y="216" width="34" height="13" rx="6"/>
+    <rect x="263" y="236" width="34" height="13" rx="6"/>
+    <rect x="215" y="256" width="34" height="13" rx="6"/>
+  </g>
+  <!-- center seam -->
+  <rect x="253" y="52" width="6" height="224" fill="#16407e"/>
+
+  <!-- zipper slider neck -->
+  <rect x="240" y="272" width="32" height="24" rx="8" fill="#fbbf24"/>
+
+  <!-- padlock pull-tab -->
+  <path d="M216 340 v-22 a40 40 0 0 1 80 0 v22"
+        fill="none" stroke="#fbbf24" stroke-width="16"/>
+  <rect x="192" y="336" width="128" height="104" rx="22" fill="url(#lock)"/>
+  <circle cx="256" cy="374" r="14" fill="#7c2d12"/>
+  <rect x="250" y="374" width="12" height="28" rx="6" fill="#7c2d12"/>
+</svg>
